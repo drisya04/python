@@ -1,0 +1,25 @@
+a="drisya"
+print(a)
+x = 20
+print(x)
+y = 19.6
+print(y)
+z=[1,2.5,2]
+print(z)
+print(z[0])
+print(z[-1])
+z.append(5)
+print(z)
+z.insert(0,8)
+print(z)
+z.pop()
+print(z)
+z.pop(2)
+print(z)
+p=(25,36,8)
+print(p)
+q=("ammu","varadha","midhu")
+r=list(q)
+r.append(5)
+q=tuple(r)
+print(q)
