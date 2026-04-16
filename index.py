@@ -129,14 +129,37 @@
 
 # Check whether a number lies between 1 and 100.
 
-z = int(input("enter a number"))
-if 1<z<100:
-    print("it is lies between 1 and 100")
-else:
-    print("it is not lies between 1 and 100")    
+# z = int(input("enter a number"))
+# if 1<z<100:
+#     print("it is lies between 1 and 100")
+# else:
+#     print("it is not lies between 1 and 100") 
 
+#find the smallest among 3 numbers
 
+# x = int(input("enter thr first number"))
+# y = int(input("enter the second number"))
+# z = int(input("entr the third number"))
+# if y>x<z:
+#     print("x is the smallest number")
+# elif x>y<z:
+#     print("y is the smallest number")
+# else:
+#     print("z is the smallest number")
 
+#ATM Withdrawal (check balance before withdrawal)
+        
+# balance = 10000
+# amount = int(input("enter the amount"))
+# if amount>balance:
+#     print("insufficient bank balance")
+# elif amount<0:
+#     print("amount should be positive")
+# else:
+#     new = balance-amount
+#     print("bank balance is",new)        
+
+# Movie ticket pricing:Child(<12)=
 
 
  
@@ -145,3 +168,51 @@ else:
        
 
     
+
+
+
+
+
+
+          # loops
+
+# print numbers from 1 to 10
+
+# n=11
+# for i in range(1,n):
+#     print(i)
+
+# # print all even numbers from 1 to 20
+
+# for i in range(2,21,2):
+#     print(i) 
+
+# print all odd eveen numbers from 1 to 20
+
+# for i in range(1,21,2):
+#     print(i)
+
+# print multiplication table of a number
+
+# n=2
+# for i in range(1,11):
+#     m=n*i
+#     print(i) 
+
+# print numbers in reverse (10 to 1)
+
+# for i in range (10,0,-1):
+#     print(i)
+
+# print sum of numbers from to n
+
+# n=21
+# sum = 0
+# for i in range (1,n+1):
+#     sum += i
+#     print(sum)
+
+# print square of numbers from 1 to 10.
+for i in range(1,11):
+    m=i**2
+    print(m)
