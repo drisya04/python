@@ -174,7 +174,7 @@
 
 
 
-          # loops
+          # for loops
 
 # print numbers from 1 to 10
 
@@ -182,15 +182,17 @@
 # for i in range(1,n):
 #     print(i)
 
-# # print all even numbers from 1 to 20
+# print all even numbers from 1 to 20
 
-# for i in range(2,21,2):
-#     print(i) 
+# for i in range(1,21):
+#     if i%2==0:
+#         print(i)
 
 # print all odd eveen numbers from 1 to 20
 
-# for i in range(1,21,2):
-#     print(i)
+# for i in range(1,21):
+#      if i%2!=0:
+#          print(i)
 
 # print multiplication table of a number
 
@@ -213,6 +215,88 @@
 #     print(sum)
 
 # print square of numbers from 1 to 10.
-for i in range(1,11):
-    m=i**2
-    print(m)
+# for i in range(1,11):
+#     m=i**2
+#     print(m)
+
+        #while loops
+
+# print numbers from 1 to 10
+# i=1
+# while i<=10:
+#     print(i)
+#     i+=1
+
+# print all even numbers from 1 to 20  
+
+# i=1
+# while i<=20:
+#     if i%2==0:
+#         print(i)
+#     i+=1
+
+#  print all odd numbers from 1 to 20 
+
+# i=1
+# while i<=20:
+#     if i%2!=0:
+#         print(i)
+#     i+=1 
+
+#  print multiplication table of a number 
+
+# num=4
+# i=1
+# while i<=10:
+#     mult=num*i
+#     print(mult)
+#     i+=1
+
+# print numbers in reverse (10 to 1)
+
+# i=10
+# while i>=1:
+#     print(i)
+#     i-=1
+
+# print sum of numbers from to n
+
+# n=10
+# sum = 0
+# i=1
+# while i<=10:
+#     sum +=i
+#     i+=1
+#     print(sum)
+
+#  print square of numbers from 1 to 10
+
+# i=1
+# while i<=10:
+#     m=i**2
+#     print(m)
+#     i+=1
+     
+                #functions
+
+# def  fun():
+#     print("my name is Drisya")
+# fun()    
+
+# def fun(a,b):
+#     print(a+b)
+# fun(20,10)  
+ 
+
+# Student Name List Create a list of at least 5 student names. Use a loop to print each name with a friendly greeting.
+
+student=["midhu","varu","nandha","aami","samu","akku"]
+for name in student:
+    print("Helloo",name,"how are you...?")
+
+
+
+
+
+    
+    
